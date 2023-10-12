@@ -30,3 +30,7 @@ project(":signedvelocity-sponge-10").projectDir = file("backend/sponge/API-10")
 
 include("signedvelocity-proxy")
 project(":signedvelocity-proxy").projectDir = file("velocity")
+
+include("signedvelocity-common")
+project(":signedvelocity-common").projectDir = file("common")
+
