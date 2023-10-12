@@ -9,6 +9,9 @@ dependencies {
     compileOnly(libs.velocity)
     annotationProcessor(libs.velocity)
     implementation(libs.bstats)
+    implementation(libs.jedis)
+    implementation(libs.configurate.hocon)
+    implementation(projects.signedvelocityCommon)
 }
 
 tasks {
