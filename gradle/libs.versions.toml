@@ -5,6 +5,7 @@ metadata.format.version = "1.1"
 # CompileOnly dependencies
 velocity = "3.2.0-SNAPSHOT"
 paper = "1.20.1-R0.1-SNAPSHOT"
+configurate = "4.1.2"
 
 # Gradle Plugins
 blossom = "2.1.0"
@@ -12,6 +13,7 @@ shadow = "8.1.1"
 runvelocity = "2.2.0"
 
 bstats = "3.0.2"
+jedis = "5.0.1"
 
 [libraries]
 
@@ -22,6 +24,8 @@ paper = { group = "io.papermc.paper", name = "paper-api", version.ref = "paper" 
 bstats = { module = "org.bstats:bstats-velocity", version.ref = "bstats" }
 
 annotations = "org.jetbrains:annotations:24.0.1"
+configurate-hocon = { group = "org.spongepowered", name = "configurate-hocon", version.ref = "configurate" }
+jedis = { group = "redis.clients", name = "jedis", version.ref = "jedis" }
 
 [plugins]
 
